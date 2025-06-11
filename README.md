@@ -13,7 +13,7 @@ Method 2: The CSEP approach focuses on emotion detection directly from text whil
 <img src="flowchart-1.jpg" alt="Flowchart 1" width="700"/>
 
 ## How to run
-# Audio-Driven Emotion Recognition (ADER)
+## Audio-Driven Emotion Recognition (ADER)
 
 File name : Conversion-to-audio-emotion-detection.ipynb
 
@@ -30,7 +30,7 @@ e) Outputs - Generates audio files corresponding to each utterance.
 
 f) Prediction - Upload .mp3 file then the model predicts the emotion of the speech.
 
-# Contextual Summarization and Emotion Prediction (CSEP)
+## Contextual Summarization and Emotion Prediction (CSEP)
 
 File name : Emotions-Detection-Using-Text-Utterance.ipynb
 
