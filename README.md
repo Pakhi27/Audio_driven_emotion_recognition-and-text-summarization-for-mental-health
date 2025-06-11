@@ -10,24 +10,39 @@ Method 2: The CSEP approach focuses on emotion detection directly from text whil
 
 ## How to run
 Audio-Driven Emotion Recognition (ADER)
+
 File name : Conversion-to-audio-emotion-detection.ipynb
+
 Key Steps :
 a) Install Dependencies - Install the gTTS library using pip install gTTS
+
 b) Upload the dataset
+
 c) Run the 'Conversion-to-audio-emotion-detection.ipynb' file which converts the text in the 'Utterance' column to audio (.mp3) using gTTS. Then detects emotion of the audio file.
+
 d) Saves audio files in the designated output directory (audio_outputs_gtts).
+
 e) Outputs - Generates audio files corresponding to each utterance.
+
 f) Prediction - Upload .mp3 file then the model predicts the emotion of the speech.
 
 Contextual Summarization and Emotion Prediction (CSEP)
+
 File name : Emotions-Detection-Using-Text-Utterance.ipynb
+
 Key Steps :
+
 a) Install Dependencies - Install Dependencies
+
 b) Upload the dataset
+
 c) Run the 'Emotions-Detection-Using-Text-Utterance.ipynb' file which detects emotion of the text in the Utterance column.
+
 d) Prediction - Upload any text. It summarizes the text if word count is more than 30 and then predicts the emotion.
 
 ## Key Contributions
 Emotion Recognition through Audio and Text: ADER integrates audio analysis, while CSEP enhances emotion recognition with contextual textual insights.
+
 Advanced Modeling Techniques: The use of ML models like XGBoost, Random Forest, and a custom BERT model ensures robust emotion prediction.
+
 Summarization for Better Context: The summarization model in CSEP enables the system to focus on the most relevant parts of the conversation, improving decision-making and emotional analysis.
