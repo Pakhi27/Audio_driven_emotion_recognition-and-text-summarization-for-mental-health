@@ -9,7 +9,7 @@ Method 1: The ADER approach leverages audio analysis for emotion prediction. The
 Method 2: The CSEP approach focuses on emotion detection directly from text while summarizing the context for concise insights. Initially, the dataset undergoes preprocessing steps, including tokenization of utterances and label encoding for the Dialogue Act and Emotion columns. We employed a custom BERT-based model for embedding the input data, which was implemented using PyTorch. This model learns contextual representations of the conversations, enabling more accurate emotion predictions. Additionally, a summarization model using BART with a dynamic threshold of 30 is applied to the dataset, providing a condensed version of the conversation while retaining its emotional essence. This helps streamline the analysis and enhances the interpretability of long conversations, ensuring the system delivers high-quality, actionable insights for mental health support.
 
 ## How to run
-Audio-Driven Emotion Recognition (ADER)
+# Audio-Driven Emotion Recognition (ADER)
 
 File name : Conversion-to-audio-emotion-detection.ipynb
 
@@ -26,7 +26,7 @@ e) Outputs - Generates audio files corresponding to each utterance.
 
 f) Prediction - Upload .mp3 file then the model predicts the emotion of the speech.
 
-Contextual Summarization and Emotion Prediction (CSEP)
+# Contextual Summarization and Emotion Prediction (CSEP)
 
 File name : Emotions-Detection-Using-Text-Utterance.ipynb
 
